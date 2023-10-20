@@ -1,0 +1,26 @@
+
+.header {
+    display: inline;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-top: 54;
+    padding-left: 120;
+    padding-right: 120;
+}
+
+.img-logo {
+    padding-top: 40;
+    padding-left: 247;
+}
+
+.img-buy {
+    padding-top: 37;
+    margin-bottom: 60;
+
+}
