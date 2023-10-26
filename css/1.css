@@ -1,26 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 
-.header {
-    display: inline;
+
+header {
+    background-color: #FC9696;
+    width: 100%;
+    height: 130px;
 }
 
 .container {
     display: flex;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+    height: 840px;
+}
+
+.container2 {
+    width: 100%;
+    height: 1080;
+}
+
+.container3 {
+    width: 100%;
+    height: 1080;
 }
 
 .nav-item {
     display: inline-block;
-    padding-top: 54;
+    padding-top: 60;
     padding-left: 120;
     padding-right: 120;
+    color: white;
 }
 
 .img-logo {
     padding-top: 40;
-    padding-left: 247;
+    padding-left: 200;
 }
 
 .img-buy {
-    padding-top: 37;
-    margin-bottom: 60;
+    margin-top: 45px;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg {
+    margin-top: 50px;
+    margin-left: 295px;
+    background-color: #FC9696;
+    width: 1322px;
+    height: 497px;
+}
+
+.h {
+    font-size: 64px;
+    color:white;
+    background-color: #FC9696;
+    padding-left: 200;
+    font-weight: 100;
+}
+
+.h1 {
+    font-size: 64px;
+    color:white;
+    background-color: #FC9696;
+    padding-left: 409;
+    font-weight: 100;
+    padding-top: 70px;
+}
+
+.p-items {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-item {
+    width: 300px;
+    height: 300px;
+    background-color: #FC9696;
+    margin-right: 40px;
+}
+
+.ots {
+    width: 1322px;
+    height: 903px;
+    max-height: 903;
+    background-color: #FC9696;
+    margin-left:300px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-ots {
+    font-size: 36px;
+    color:white;
+    margin-left: 122;
+}
+
+input, textarea {
+    margin-left: 110px;
+    width: 1082px;
+    height: 44px;
+    font-size: 32px;
+}
+
+textarea {
+    resize: none;
+    height: 393px;
+}
+
+button {
+    margin-left: 393;
+    width:536px;
+    height:57px;
+}
+
+footer {
+    width: 100%;
+    height: 130px;
+    max-height: 130px;
+    background-color: #FC9696;
+}
+
+.text-footer {
+    font-size: 36px;
+    color:white;
+    padding: 60px;
+    padding-bottom:0;
 }
