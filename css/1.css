@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-
 header {
     background-color: #FC9696;
     width: 100%;
@@ -30,12 +29,16 @@ header {
     height: 1080;
 }
 
+.nav-items{
+    display: flex;
+}
+
 .nav-item {
-    display: inline-block;
     padding-top: 60;
     padding-left: 120;
     padding-right: 120;
     color: white;
+    font-weight: bold;
 }
 
 .img-logo {
@@ -53,11 +56,48 @@ a {
 }
 
 .bg {
+    display: flex;
+    margin: 0 auto;
     margin-top: 50px;
-    margin-left: 295px;
     background-color: #FC9696;
     width: 1322px;
     height: 497px;
+}
+
+.text_main{
+    width: 442px;
+    height: 411px;
+    margin: 43px 73px 43px 60px;
+}
+
+.text_main_in {
+    padding:20px;
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    background-color: #FD6868;
+}
+
+.button_main {
+    
+    margin-top:50px;
+    background-color: #FD6868;
+    width: 442px;
+    height: 67px;
+    max-width: 442px;
+    max-height: 67px;
+}
+
+.link_main {
+    font-size: 36px;
+    padding-left: 78px;
+    color: white;
+}
+
+.main_img {
+    margin-top: 43px;
+    width: 688px;
+    height: 411px;
 }
 
 .h {
@@ -137,4 +177,14 @@ footer {
     color:white;
     padding: 60px;
     padding-bottom:0;
+}
+.containerimg {
+    display: flex;
+    justify-content: center;
+} 
+
+.buttonpr {
+    width: 130px;
+    height: 64px;
+    margin-top: 162px;;
 }
