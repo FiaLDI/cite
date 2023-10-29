@@ -239,10 +239,12 @@ footer {
 
 .img-p-1 {
     height: 600px;
+    width: 300px;
 }
 
 .img-p-2 {
     height: 250px;
+    width: 300px;
 }
 
 .imgandtext {
