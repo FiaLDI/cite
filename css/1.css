@@ -210,13 +210,13 @@ footer {
 .p-item-1 {
     width: 300px;
     height: 650px;
-    background-color: #FD6867;
+    background-color: #FB4443;
 }
 
 .p-item-2 { 
     width: 300px;
     height: 300px;
-    background-color: #FD6867;
+    background-color: #FB4443;
 }
 
 .p-item-1:nth-child(1){
@@ -228,7 +228,7 @@ footer {
 }
 
 .text-p {
-    height: 55px;
+    height: 50px;
     width: 300px;
     color:white;
     font-size: 32px;
@@ -237,8 +237,18 @@ footer {
     vertical-align:middle;
 }
 
+.img-p-1 {
+    height: 600px;
+}
+
+.img-p-2 {
+    height: 250px;
+}
+
 .imgandtext {
     position: relative;
+    height: 250px;
+    background-color: #FB4443;
 }
 
 .perecr-img {
