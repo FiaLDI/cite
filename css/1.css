@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,21 +13,26 @@ header {
 .container {
     display: flex;
     padding: 0;
+    
 }
 
 .container1 {
     width: 100%;
     height: 840px;
+    padding-top:20px;
+    background-image: url(/img/back.png);
 }
 
 .container2 {
     width: 100%;
     height: 1080;
+    background-image: url(/img/back.png);
 }
 
 .container3 {
     width: 100%;
     height: 1080;
+    background-image: url(/img/back.png);
 }
 
 .nav-items{
@@ -101,34 +107,20 @@ a {
 }
 
 .h {
-    font-size: 64px;
+    font-size: 48px;
     color:white;
     background-color: #FC9696;
-    padding-left: 200;
+    padding-left: 291;
     font-weight: 100;
 }
 
 .h1 {
-    font-size: 64px;
+    font-size: 48px;
     color:white;
     background-color: #FC9696;
-    padding-left: 409;
+    padding-left: 471;
     font-weight: 100;
     padding-top: 70px;
-}
-
-.p-items {
-    display: flex;
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.p-item {
-    width: 300px;
-    height: 300px;
-    background-color: #FC9696;
-    margin-right: 40px;
 }
 
 .ots {
@@ -179,12 +171,98 @@ footer {
     padding-bottom:0;
 }
 .containerimg {
-    display: flex;
-    justify-content: center;
+    
+    width: 20px;
+    height: 20px;
 } 
 
 .buttonpr {
     width: 130px;
     height: 64px;
-    margin-top: 162px;;
+    margin-top: 162px;
+    margin-right: 892px;
+    margin-left: 892px;
 }
+
+.buttonpr-2 {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whys {
+    display:flex;
+    padding-left: 299px;
+    padding-right: 299px;
+    padding-top: 74px;
+    justify-content: space-between;
+}
+
+.p-items-1 {
+    display: flex;
+    width: 811px;
+    justify-content: flex-start;
+}
+
+.p-item-1 {
+    width: 300px;
+    height: 650px;
+    background-color: #FC9696;
+}
+
+.p-item-2 { 
+    width: 300px;
+    height: 300px;
+    background-color: #FC9696;
+}
+
+.p-item-1:nth-child(1){
+    margin-right: 211px;
+}
+
+.p-item-2:nth-child(2){
+    margin-top: 50px;
+}
+
+.text-p {
+    height: 55px;
+    width: 300px;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    background-color: #FD6868;
+    vertical-align:middle;
+}
+
+.imgandtext {
+    position: relative;
+}
+
+.perecr-img {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    position: absolute;
+    width: 82px;
+    height: 26px;
+    background-color: #FD6868;
+    top: 0%;
+    right: 0%;
+}
+
+.perecr-img-2 {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    position: absolute;
+    width: 163px;
+    height: 40px;
+    background-color: #FD6868;
+    top: 0%;
+    right: 0%;
+}
+
