@@ -4,8 +4,9 @@ body {
     overflow-x: hidden;
 }
 
+
 header {
-    background-color: #FC9696;
+    background-color: #FD6867;
     width: 100%;
     height: 130px;
 }
@@ -65,7 +66,7 @@ a {
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: #FC9696;
+    background-color: #FD6867;
     width: 1322px;
     height: 497px;
 }
@@ -81,13 +82,13 @@ a {
     font-size: 36px;
     text-align: center;
     color:white;
-    background-color: #FD6868;
+    background-color: #FB4443;
 }
 
 .button_main {
     
     margin-top:50px;
-    background-color: #FD6868;
+    background-color: #FB4443;
     width: 442px;
     height: 67px;
     max-width: 442px;
@@ -109,7 +110,7 @@ a {
 .h {
     font-size: 48px;
     color:white;
-    background-color: #FC9696;
+    background-color: #FD6867;
     padding-left: 291;
     font-weight: 100;
 }
@@ -117,7 +118,7 @@ a {
 .h1 {
     font-size: 48px;
     color:white;
-    background-color: #FC9696;
+    background-color: #FD6867;
     padding-left: 471;
     font-weight: 100;
     padding-top: 70px;
@@ -127,7 +128,7 @@ a {
     width: 1322px;
     height: 903px;
     max-height: 903;
-    background-color: #FC9696;
+    background-color: #FD6867;
     margin-left:300px;
     align-items: center;
     margin-bottom: 20px;
@@ -161,7 +162,7 @@ footer {
     width: 100%;
     height: 130px;
     max-height: 130px;
-    background-color: #FC9696;
+    background-color: #FD6867;
 }
 
 .text-footer {
@@ -209,13 +210,13 @@ footer {
 .p-item-1 {
     width: 300px;
     height: 650px;
-    background-color: #FC9696;
+    background-color: #FD6867;
 }
 
 .p-item-2 { 
     width: 300px;
     height: 300px;
-    background-color: #FC9696;
+    background-color: #FD6867;
 }
 
 .p-item-1:nth-child(1){
@@ -232,7 +233,7 @@ footer {
     color:white;
     font-size: 32px;
     text-align: center;
-    background-color: #FD6868;
+    background-color: #FB4443;
     vertical-align:middle;
 }
 
@@ -248,7 +249,7 @@ footer {
     position: absolute;
     width: 82px;
     height: 26px;
-    background-color: #FD6868;
+    background-color: #FB4443;
     top: 0%;
     right: 0%;
 }
@@ -261,7 +262,7 @@ footer {
     position: absolute;
     width: 163px;
     height: 40px;
-    background-color: #FD6868;
+    background-color: #FB4443;
     top: 0%;
     right: 0%;
 }
