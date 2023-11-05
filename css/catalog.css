@@ -1,0 +1,146 @@
+img {
+    margin-bottom: 16px;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    margin-bottom: 32px;
+    
+}
+
+.vibr h1  {
+    color: black;
+    font-size: 20px;
+    padding-top: 32px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: justify;
+}
+
+
+.line {
+    background-color: #FD6867;
+    margin-top: 50px;
+}
+
+.text-main {
+    color: white;
+    font-size: 48px;
+    padding-left: 200px;
+}
+
+.container-catalog-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-catalog-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-tovar {
+    background-color: #FD6868;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.container-tovarP {
+    margin-right: 75px;
+}
+
+.tovars-items {
+    display: flex;
+}
+
+.tovar-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fc4d4d;
+    border-radius: 20px;
+    width: 300px;
+    height: 632px;
+    margin:32px;
+    border: 1px solid #FF0200;
+    
+}
+
+.tovar-itemR {
+    margin-right: 0px;
+}
+
+
+.vibr {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 32px;
+    max-width: 298px;
+}
+
+.vibr-item {
+    display:flex;
+    flex-direction: column;
+}
+.vibr-items {
+    justify-self: flex-end;
+}
+
+.vibrbut {
+    display: flex;
+    margin-top: 450px;
+}
+
+.button {
+    display: grid;
+    background-color: #FB4443;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    width: 260px;
+    height: 74px;
+    color: white;
+}
+
+span {
+    padding-top: 20px;
+}
+
+.priyat {
+    margin-top: 70px;
+    background-color: #FD6868;
+    display: flex;
+    justify-content: center;
+    height: 215px;
+    margin-bottom: 70px;
+}
+
+.priyat span {
+    font-size: 64px;
+    padding-top: 75px;
+    color: white;
+    font-weight: bold;
+}

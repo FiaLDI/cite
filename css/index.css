@@ -1,0 +1,41 @@
+.container-main {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+}
+
+/*BODY*/
+
+.line {
+    background-color: #FD6867;
+    margin-top: 50px;
+}
+
+.text-main {
+    color: white;
+    font-size: 48px;
+    padding-left: 200px;
+}
+
+.img-main {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 440px;
+    position: absolute;
+    background-color: #fd6767cb;
+    border: #FD6867 solid 0px;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+    margin-top: 400px;
+}
