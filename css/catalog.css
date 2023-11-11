@@ -1,4 +1,4 @@
-img {
+.tovar-item img {
     margin-bottom: 16px;
 }
 h1 {
@@ -123,6 +123,11 @@ p {
     width: 260px;
     height: 74px;
     color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff9898;
 }
 
 span {

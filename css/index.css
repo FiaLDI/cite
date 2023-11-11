@@ -9,22 +9,23 @@
 
 .line {
     background-color: #FD6867;
-    margin-top: 50px;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .text-main {
     color: white;
-    font-size: 48px;
-    padding-left: 200px;
+    font-size: 3em;
+    padding-left: 6em;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3em;
     margin: 0;
     padding: 0;
     color: white;
     text-align: right;
-    padding-top: 75px;
+    padding-top: 5rem;
     padding-right: 16px;
 }
 
@@ -39,8 +40,9 @@ p {
 }
 
 .img-main {
+    background: linear-gradient(-45deg, #FD6867, #FB4443);
     display: flex;
-    margin-top: 56px;
+    margin-bottom: 4em;
     align-self: center;
     justify-content: end;
     height: 362px;
@@ -52,17 +54,85 @@ p {
 .button {
     display: flex;
     width: 1322px;
-    background-color: #fd6767cb;
+    background-color: #fd6767;
     border: #FD6867 solid 0px;
     border-radius: 20px;
     color: white;
     font-size: 36px;
     cursor: pointer;
-    margin-bottom: 128px;
-    margin-top: 56px;
+    margin-bottom: 3em;
     align-self: center;
+    background: linear-gradient(0, #FD6867, #FB4443);
 }
 
 .nav-item-index {
     width: 1322px;
+    text-decoration: none;
+    color: white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    
+}
+
+.container-minicatalog {
+    background: linear-gradient(180deg, #FD6867, #FB4443);
+    width: 100%;
+    height: fit-content;
+    background-color: #FD6867;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.catalog-items {
+    display: flex;
+    height: 12rem;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: #FB4443;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+
+.img-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cat {
+    width: 100%;
+    height: auto;
+}
+
+.main-cat {
+    text-align: center;
+    padding: 0;
+    background-color: #FD6867;
+}
+
+.text-catalog {
+    display: flex;
+    background-color: #FF302F;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.text-catalog span {
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-self: center;
 }
